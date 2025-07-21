@@ -1,0 +1,44 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@tiembanh.com",
+      "password": "$2b$10$GtvccfYAEGXlf7fPdr6Oae7VujRnwQYTMLFChBSiMwX/KsVxSpceG",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "username": "quanly",
+      "email": "quanly@tiembanh.com",
+      "password": "$2b$10$fE0VakAw0qcGcP/hMGuLee4STkdBUxtTapDusaLaKVQ4ws2OXIadS",
+      "role": "manager",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "username": "nhanvien1",
+      "email": "nhanvien1@tiembanh.com",
+      "password": "$2b$10$RpTqVX4L2/eEr2fH/TsetO/zVGIv7DAyFxFXEYdrbapt9wuUzaG5K",
+      "role": "staff",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "username": "nhanvien2",
+      "email": "nhanvien2@tiembanh.com",
+      "password": "$2b$10$RpTqVX4L2/eEr2fH/TsetO/zVGIv7DAyFxFXEYdrbapt9wuUzaG5K",
+      "role": "staff",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "username": "nhanvien3",
+      "email": "nhanvien3@tiembanh.com",
+      "password": "$2b$10$RpTqVX4L2/eEr2fH/TsetO/zVGIv7DAyFxFXEYdrbapt9wuUzaG5K",
+      "role": "staff",
+      "status": "active"
+    }
+  ]
+} 

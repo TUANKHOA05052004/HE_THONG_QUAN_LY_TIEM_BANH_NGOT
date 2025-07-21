@@ -1,0 +1,103 @@
+/* 1. Thiết lập cơ sở chung */
+html {
+  font-size: 16px; /* 1rem = 16px */
+  scroll-behavior: smooth; /* Tạo hiệu ứng cuộn mượt */
+}
+
+/* 2. Thiết lập box-sizing toàn cục */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem; /* Dùng rem cho font-size */
+  line-height: 1.5;
+  color: var(--text-color, #333); /* Dùng biến CSS để quản lý màu */
+  background-color: var(--background-color, #f4f4f4);
+}
+
+/* 3. Thiết lập CSS Variables cho các giá trị màu sắc và kích thước cơ bản */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --accent-color: #28a745;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --base-spacing: 1rem; /* Dễ dàng điều chỉnh khoảng cách chung */
+}
+
+/* 4. Phần tử tiêu chuẩn */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: var(--base-spacing);
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2rem; /* 32px */
+}
+
+h2 {
+  font-size: 1.75rem; /* 28px */
+}
+
+/* 5. Các phần tử dùng cho layout và container */
+.container {
+  width: 100%;
+  padding: var(--base-spacing);
+  margin: 0 auto;
+  max-width: 1200px; /* Tối đa chiều rộng */
+}
+
+/* 6. Các thành phần Button, Link */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem; /* Dùng rem cho font-size */
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 7. Các đoạn văn bản */
+p {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5;
+  margin-bottom: var(--base-spacing);
+}
+
+/* 8. Animations */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 9. Thiết lập Media Queries cho Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: var(--base-spacing);
+  }
+
+  .button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem; /* 14px */
+  }
+}
