@@ -319,7 +319,7 @@ CREATE TABLE website_settings (
 );
 
 -- =============================================
--- 11. PRODUCT_REVIEWS TABLE
+-- 11. PRODUCT_REVIEWS TABLE (new)
 -- =============================================
 DROP TABLE IF EXISTS product_reviews;
 CREATE TABLE product_reviews (
