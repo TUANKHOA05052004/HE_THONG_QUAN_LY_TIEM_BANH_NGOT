@@ -315,7 +315,6 @@ const ProductDetailPage = () => {
     position: 'relative',
     zIndex: 10,
     pointerEvents: 'auto',
-    cursor: 'pointer',
     transition: 'all 0.2s ease',
   });
 
